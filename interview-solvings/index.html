@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JS Setup</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <style>
+      .space {
+        margin-top: 30px;
+      }
+      #eventDeleagation {
+        margin-top: 30px;
+      }
+      #grandParant {
+        margin-top: 20px;
+        width: 250px;
+        height: 150px;
+        border: 1px solid red;
+      }
+
+      #parent {
+        width: 200px;
+        height: 100px;
+        border: 1px solid black;
+        margin: 20px auto;
+      }
+
+      #child {
+        margin: 20px auto;
+        width: 100px;
+        height: 50px;
+        border: 1px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Its simple learing of JS setup</h3>
+    <h5>Debouncing Concept</h5>
+    <input type="text" onkeyup="debounce()" />
+
+    <h5>Throttling Concept</h5>
+    <button
+      class="space"
+      id="throttling-btn"
+      type="button"
+      onclick="throttling()"
+    >
+      Click me, I will make API Call every 500ms
+    </button>
+
+    <div id="grandParant">
+      <span>Grand Parent</span>
+      <div id="parent">
+        <span>Parent</span>
+        <div id="child">
+          <span>Child</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="eventDeleagation">
+      <span>Event Delegation Example</span>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+
+      <div id="form">
+        <input class="input1" type="text" data-uppercase value="" />
+        <input class="input1" type="text" data-uppercase value="" />
+      </div>
+    </div>
+    <script src="./javascript.js"></script>
+  </body>
+</html>
