@@ -94,7 +94,8 @@ function rotateArray() {
     }
     console.log("Approach 1 :", inputArray);
   }
-  rotateApproachOne(inputArray, 4);
+
+  // rotateApproachOne(inputArray, 4);
 
   // Approach 2 Reverse
   const inputArray1 = [1, 2, 3, 4, 5, 6];
@@ -104,12 +105,12 @@ function rotateArray() {
     }
     console.log("Approach 2 :", inputArray);
   }
-  rotateApproachTwo(inputArray1, 2);
+
+  // rotateApproachTwo(inputArray1, 2);
 
   // Approach 3 slice and concat
 
   const inputArr2 = [1, 2, 3, 4, 5, 6];
-
   function rotateApproachThree(inputArray, kTimes) {
     const newArray = inputArray
       .slice(kTimes)
@@ -117,7 +118,18 @@ function rotateArray() {
     console.log("Approach 3 :", newArray);
   }
 
-  rotateApproachThree(inputArr2, 2);
+  // rotateApproachThree(inputArr2, 2);
+
+  const rotateApproachReccursion = (inputArry, n) => {
+    if (n == 0) {
+      return;
+    }
+    rotateApproachReccursion(inputArry, n - 1);
+    inputArray.unshift(inputArray.pop());
+    console.log(inputArray);
+  };
+
+  rotateApproachReccursion(inputArray1, 4);
 
   // Treditional Approach  const inputArr2 = [1, 3, 5, 7, 9]; kTimes = 4
 
@@ -143,7 +155,7 @@ function rotateArray() {
     }
   }
 
-  console.log("Approach 4 :", rotateArray);
+  //console.log("Approach 4 :", rotateArray);
 }
 
 rotateArray();
