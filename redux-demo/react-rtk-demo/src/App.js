@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Products from "./components/Products";
 import PageNotFound from "./components/PageNotFound";
+import Counter from "./components/Counter";
 import store from "./app/store";
 
 const AppLayout = () => {
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="home" element={<Home />} />
           <Route path="products" element={<Products />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="counter" element={<Counter />} />
           <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>
