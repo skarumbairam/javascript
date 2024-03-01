@@ -1,12 +1,17 @@
-import ToDo from "./components/ToDo";
-import Cards from "./components/Cards";
+import { Route, Routes } from "react-router-dom";
+import Component from "./components/Component";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Component List</h1>
-      <ToDo />
-      <Cards />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/components" element={<Component />} />
+    </Routes>
   );
 }
 

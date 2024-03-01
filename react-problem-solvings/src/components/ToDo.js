@@ -12,7 +12,6 @@ const ToDo = () => {
     setValue((value) => "");
   };
 
-  const test = ["q", "b", "c", "d", "f"];
   const removeTask = (index) => {
     setTaskList(taskList.filter((item, idx) => idx !== index));
     // setTaskList(taskList.splice(index, 1));

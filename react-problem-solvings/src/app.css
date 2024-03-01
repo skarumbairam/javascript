@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.game-container {
+  margin: 20px;
+}
+.row {
+  display: flex;
+}
+.square {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
