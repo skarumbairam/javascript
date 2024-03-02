@@ -9,7 +9,7 @@ const ToDo = () => {
   };
   const submitTaskHandler = () => {
     setTaskList([...taskList, value]);
-    setValue((value) => "");
+    setValue("");
   };
 
   const removeTask = (index) => {
