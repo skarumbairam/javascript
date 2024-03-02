@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: aqua;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.space {
+  margin: 20px auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+/* ----Todo  component---*/
+.todolist-container input {
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.todolist-container button {
+  width: 75px;
+  height: 30px;
+  margin: 20px;
+}
+.btn {
+  padding: 5px;
+  margin: 10x;
+  height: 15px;
+}
+.listComponent {
+  width: 330px;
+  display: flex;
+  align-items: center;
+  border: 1px solid lavenderblush;
+  justify-content: space-between;
+}
+.strike {
+  text-decoration: line-through;
+}
+/* ----Autocomplete component---*/
+.searchComponent input {
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+  border: 1px solid black;
+}
+.listContainer {
+  width: 330px;
+}
+.listContainer .list {
+  padding: 5px;
+  border-bottom: 1px solid grey;
+  cursor: pointer;
+}
+
+/*--- Tic Toc Component--*/
+.tictocContainer .btn {
+  margin: 35px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+.tictocContainer {
+  margin: 20px 0;
+}
+.row {
+  display: flex;
+}
+.square {
+  width: 75px;
+  height: 75px;
+  border: 1px solid gray;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  color: black;
+  cursor: pointer;
+}
+
+/*-------*/
+
+.formContainer {
+  width: 350px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.formContainer .item {
+  margin: 20px 0;
+}
+
+.item label,
+.item input {
+  margin: 5px;
+}
+.item input {
+  padding: 5px;
+  border: 1px solid black;
+  outline: auto;
+}
+
+.formContainer .btn {
+  margin: 10px auto;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}

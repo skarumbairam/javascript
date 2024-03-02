@@ -1,0 +1,30 @@
+export const Products = [
+  { id: 0, title: "Apple" },
+  { id: 1, title: "Banana" },
+  { id: 2, title: "Cat" },
+  { id: 3, title: "Dog" },
+  { id: 4, title: "Elephant" },
+  { id: 5, title: "Friends" },
+  { id: 6, title: "Doctor" },
+  { id: 7, title: "Home" },
+  { id: 8, title: "House" },
+  { id: 9, title: "India" },
+  { id: 10, title: "Jack" },
+  { id: 11, title: "Janury" },
+  { id: 12, title: "Kamal" },
+  { id: 13, title: "Kovai" },
+  { id: 14, title: "Love" },
+  { id: 15, title: "Lemon" },
+  { id: 16, title: "Mango" },
+];
+
+export const Patterns = [
+  [0, 1, 2],
+  [3, 4, 5],
+  [6, 7, 8],
+  [0, 3, 6],
+  [1, 4, 7],
+  [2, 5, 8],
+  [6, 4, 2],
+  [0, 4, 8],
+];
