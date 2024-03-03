@@ -115,3 +115,35 @@ body {
   height: 50px;
   cursor: pointer;
 }
+
+/* -------- Accordian ------- */
+.accItem {
+  width: 300px;
+}
+.title {
+  width: 100%;
+  border: 1px solid burlywood;
+  cursor: pointer;
+  text-align: center;
+}
+.accItem .title {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+.accItem .icon {
+  width: 40px;
+  height: 40px;
+  color: antiquewhite;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  max-width: 100%;
+  background-color: antiquewhite;
+  padding: 20px 10px;
+}

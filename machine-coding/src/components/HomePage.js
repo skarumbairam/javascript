@@ -3,6 +3,7 @@ import SearchComponent from "./SearchComponent";
 import TicTocComponent from "./TicTocComponent";
 import FormComponent from "./FormComponent";
 import StopWatchComponent from "./StopWatchComponent";
+import AccordianComponent from "./AccordianComponent";
 
 const HomePage = () => {
   return (
@@ -17,8 +18,8 @@ const HomePage = () => {
         <TicTocComponent />
         <h3>Simple Form Compoent</h3>
         <FormComponent />
-        <h3>Stop Watch Compoent</h3>
-        <StopWatchComponent />
+        <h3>Accordian Compoent</h3>
+        <AccordianComponent />
       </div>
     </div>
   );
