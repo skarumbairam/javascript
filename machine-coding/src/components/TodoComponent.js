@@ -9,7 +9,7 @@ const TodoComponent = () => {
   };
 
   function getToDosList() {
-    const list = localStorage.getItem("todosList");
+    const list = localStorage.getItem("todosList") || [];
     return JSON.parse(list);
   }
 

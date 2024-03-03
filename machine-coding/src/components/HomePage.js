@@ -2,6 +2,7 @@ import TodoComponent from "./TodoComponent";
 import SearchComponent from "./SearchComponent";
 import TicTocComponent from "./TicTocComponent";
 import FormComponent from "./FormComponent";
+import StopWatchComponent from "./StopWatchComponent";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,8 @@ const HomePage = () => {
         <TicTocComponent />
         <h3>Simple Form Compoent</h3>
         <FormComponent />
+        <h3>Stop Watch Compoent</h3>
+        <StopWatchComponent />
       </div>
     </div>
   );
