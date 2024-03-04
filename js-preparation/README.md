@@ -1171,6 +1171,10 @@ Currying is the process in functional program, we transform a function with mult
 
     A **Pure function** is a function where the return value is only determined by its arguments without any side effects. i.e, If you call a function with the same arguments 'n' number of times and 'n' number of places in the application then it will always return the same value.
 
+OR
+
+A Pure Function is a function (a block of code) that always returns the same result if the same arguments are passed. It does not depend on any state or data change during a program's execution. Rather, it only depends on its input arguments.
+
     Let's take an example to see the difference between pure and impure functions,
 
     ```javascript
