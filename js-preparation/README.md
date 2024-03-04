@@ -1083,6 +1083,9 @@
    '0' === false // false
    []==[] or []===[] //false, refer different objects in memory
    {}=={} or {}==={} //false, refer different objects in memory
+   const a = [];
+   const b = a;
+   a==b or a===b // true refer same objects in memory 
    ```
 
    **[⬆ Back to Top](#table-of-contents)**
